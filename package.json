@@ -1,0 +1,39 @@
+{
+  "name": "frontend-assignment-exercise",
+  "version": "1.0.0",
+  "description": "Frontend assignment exercise",
+  "main": "main.js",
+  "author": "Coolblue",
+  "scripts": {
+    "dev:assets": "webpack --watch",
+    "dev:start": "live-server --open=./public/ --host=localhost --watch=./public/",
+    "dev": "npm-run-all -p dev:*",
+    "build": "cross-env NODE_ENV=production webpack"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "cross-env": "^7.0.3",
+    "css-loader": "^5.2.6",
+    "cssnano": "^5.0.6",
+    "file-loader": "^6.2.0",
+    "live-server": "^1.2.1",
+    "mini-css-extract-plugin": "^1.6.0",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.3.4",
+    "postcss-loader": "^6.1.0",
+    "postcss-preset-env": "^6.7.0",
+    "sass": "^1.35.0",
+    "sass-loader": "^12.1.0",
+    "webpack": "^5.39.0",
+    "webpack-cli": "^4.7.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coolblue-development/frontend-assignment-exercise.git"
+  },
+  "bugs": {
+    "url": "https://github.com/coolblue-development/frontend-assignment-exercise/issues"
+  }
+}

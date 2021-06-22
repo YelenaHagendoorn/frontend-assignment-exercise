@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <style>
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Red Alert</title>
+    <link rel="stylesheet" href="./assets/styles/main.css">
+  </head>
+  <body>
+      <div class="grid-container">
+        <div class="grid-item header">
+          <div class="head-company-name">Red Alert</div>
+          <div class="company-name">by Warning</div>
+        </div>
+
+        <div class="grid-item color-light-grey padding-30">
+          <div class="head-advertising-slogan ">Protect your home</div>
+          <div class="advertising-slogan">for a criminally low price</div> 
+        </div>
+
+        <div class="grid-item side-left-picture color-light-grey">
+          <img class="padding-30" src="/public/assets/images/product-2-transparent.png">
+        </div>
+
+        <div class="grid-item hide-mobile side-right-picture color-light-grey">
+          <img class="padding-30" src="/public/assets/images/product-1-transparent.png">
+        </div>
+        
+        <div class="grid-item color-light-grey">
+          <button class="button-red">Get started for 59,99</button>
+          <button class="button-information">More information</button>
+        </div>
+      
+        <div class="grid-item hide-mobile"></div>
+        
+        <div class="grid-item">
+          <div class="head-faq">Most asked questions</div>
+          <div id="faq-list"></div>
+        </div>
+
+        <div class="grid-item hide-mobile"></div>
+    </div>
+
+    <div class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          More information
+        </div>
+        <div>
+          <div class="modal-item">
+            <img class="img-modal" src="assets/images/product-2-transparent.png">
+            <div class="modal-title">Warning Red Alert Basic</div>
+            <div class="modal-subtitle">Contains 3 door sensors, 2 door locks, 1 alarm and 1 hub.</div>
+            <div class="price">€59,99</div>
+          </div>
+          <div class=modal-item>
+            <img class="img-modal" src="assets/images/product-1-transparent.png">
+            <div class="modal-title">Warning Red Alert Premium</div>
+            <div class="modal-subtitle">Contains everything Red Alert Basic has, plus a weather proof camera</div>
+            <div class="price">€109,99</div>
+          </div>
+        </div>
+        <button class="close-button button-red">Close</button>
+      </div>
+    </div>
+    <script src="./assets/scripts/bundle.js" defer></script>
+  </body>
+</html>

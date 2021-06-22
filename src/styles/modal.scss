@@ -1,0 +1,66 @@
+@import './variables';
+
+.modal {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: auto;
+    background-color: rgb(255, 255, 255, 0.8);
+    display: none;
+}
+
+.display {
+    display: block;
+}
+
+.modal-content {
+    margin: 15% auto;
+    background-color: $color-white;
+    width: 300px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 1px 0px 10px 5px rgba(0,0,0,0.3);
+    padding-bottom: 10px;
+}
+
+.modal-item {
+    border-bottom: 1px solid grey;
+    padding: 10px 30px;
+
+    &:last-child {
+        border-bottom: none;
+    }
+}
+
+.modal-header {
+    background-color: $color-red;
+    color: $color-white;
+    color: white;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+}
+
+.modal-title {
+    color: $color-red;
+    font-weight: bold;
+    margin: 10px;
+    font-size: 14px;
+}
+
+.modal-subtitle {
+    font-size: 10px;
+}
+
+.price {
+    font-weight: bold;
+    margin: 10px;
+}
+
+.close-button {
+    display: block;
+    margin: auto;
+    width: 150px;
+}
