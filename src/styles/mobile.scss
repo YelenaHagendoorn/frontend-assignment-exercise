@@ -14,11 +14,11 @@
     }
 
     .faq-item {
-        border-top: 1px solid black;
+        border-top: 1px solid $color-dark-grey;
         border-bottom: none;
 
         &:last-child {
-            border-top: 1px solid black;
+            border-top: 1px solid $color-dark-grey;
         }
     }
 }

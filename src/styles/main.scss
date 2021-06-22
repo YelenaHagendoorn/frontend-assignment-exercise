@@ -10,15 +10,15 @@
 button {
   border: none;
   padding: 10px 32px;
-  color: white;
+  color: $color-white;
   text-align: center;
   text-decoration: none;
   font-size: 9px;
   display: inline-block;
   border-radius: 30px;
-  box-shadow: 1px 1px #2B2D42;
+  box-shadow: 1px 1px $color-dark-grey;
   width: 150px;
-  margin: 10px;
+  margin: 5px;
   cursor: pointer;
 }
 
@@ -27,7 +27,7 @@ button {
   }
 
   .button-information {
-    background-color: #8D99AE;
+    background-color: $color-dark-grey;
   }
 
 .grid-container {
@@ -45,7 +45,7 @@ button {
 }
 
 .color-light-grey {
-  background-color: #EDF2F4;
+  background-color: $color-light-grey;
 }
 
 .header {
@@ -53,12 +53,12 @@ button {
   padding: 10px;
   grid-column: 1/4;
   background-color: $color-red;
-  color: white;
+  color: $color-white;
 }
 
  .head-company-name {
    font-size: 15px;
-   text-shadow: 0.5px 0.5px #FFFFFF
+   text-shadow: 0.5px 0.5px $color-white;
  }
 
  .company-name {
@@ -67,16 +67,22 @@ button {
   opacity: 0.85;
 }
 
+.container-advertising-slogan {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
 .head-advertising-slogan {
-  color: #2B2D42;
+  color: $color-dark-grey;
   font-weight: bold;
-  text-shadow: 0.4px 0.4px #AD646D;
+  text-shadow: 0.4px 0.4px $color-light-red;
   font-size: 25px;
 }
 
 .advertising-slogan {
-  color: #2B2D42;
-  text-shadow: 0.4px 0.4px #AD646D;
+  color: $color-dark-grey;
+  text-shadow: 0.4px 0.4px $color-light-red;
   font-size: 20px;
   letter-spacing: 1px;
 }

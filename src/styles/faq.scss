@@ -1,18 +1,18 @@
 .head-faq {
-    color:#2B2D42;
+    color:$color-dark-grey;
     font-size: small;
     font-weight: bold;
     margin: 20px 0 10px 0;
   }
   
 #faq-list {
-    border: 1px solid black;
+    border: 1px solid $color-dark-grey;
     border-radius: 5px;
     text-align: left;
 }
 
 .faq-item {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid $color-dark-grey;
     padding: 10px;
     font-size: 10px;
 }
